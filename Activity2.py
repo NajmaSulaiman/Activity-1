@@ -40,8 +40,10 @@ print(total_width)
 
 print("-"*50)
 
-total=100
-blockSize=5
+total=int(input("enter number of total: "))
+#total=100
+blockSize=int(input("enter number OF blockSize: "))
+#blockSize=5
 wall=total//blockSize
 print(wall)
 black=wall//2
