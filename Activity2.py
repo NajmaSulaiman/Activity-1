@@ -45,12 +45,12 @@ total=int(input("enter number of total: "))
 blockSize=int(input("enter number OF blockSize: "))
 #blockSize=5
 wall=total//blockSize
-print(wall)
+print("wall :"+str(wall))
 black=wall//2
 white=black-1
 gap=wall-(black+white)
-print(gap)
-print(black+white)
+print("Gap : "+str(gap))
+print("Balck & White : " + str(black+white))
 
 
 
