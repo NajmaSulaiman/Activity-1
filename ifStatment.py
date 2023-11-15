@@ -29,4 +29,20 @@ if (gender == "m" or  gender == "M"):
         print("reject")
 else:
     print ("reject")
+    
+
+
+
+s="h"
+message="hello"
+print(s in message)
+print(s not in message)
+x="dgd6453"
+print(x.isalnum())
+print(x.isdigit())
+a="    "
+print(a.isspace())
+
+
+
 

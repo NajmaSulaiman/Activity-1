@@ -12,7 +12,9 @@ elif (ampm2 == "am" and ampm1 =="pm"):
     print ("second  time is first  "+ str(h2)+":"+str(m2)+ampm2)
 else:
     
-    if (h1 <= h2):
+    if (h1 < h2):
+        print("first time is first  "+ str(h1)+":"+str(m1)+ampm1)
+    elif(h1 == h2):
         if (m1<= m2):
             print ("first time is first  "+ str(h1)+":"+str(m1)+ampm1)
         else:
