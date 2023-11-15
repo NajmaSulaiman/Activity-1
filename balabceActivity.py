@@ -14,11 +14,11 @@ if (pin == userpin):
         withdrow=int(input("enter how many withdrow you want:"))
         
         print("your final balance is :  "+str(balance-withdrow))
-    else:
+    elif(choose==3):
         deposit=int(input("enter how many deposit you want: "))
         print("your final balance is :  "+str(balance+deposit))
-    """else:
-        print("Try again please")"""
+    else:
+        print("Try again please")
                 
     
                   
