@@ -81,6 +81,8 @@ for i in range(1,5):
     print("*" * i)
 for i in range(5,0,-1):
     print("*" * i)
+    
+    
 num1=int(input("enter a number 1-20: "))
 for num in range(1,21):
     num2=int(input("enter a number 1-20: "))
