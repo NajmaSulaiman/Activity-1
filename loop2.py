@@ -1,3 +1,4 @@
+import random
 """
 for i in range(4,6):
     for j in range (1,4):
@@ -28,6 +29,11 @@ for chr1 in x:
     if(chr1 in v):
         counter+=1
 print(counter)
+
+
+x=random.randint(1,10)
+print(x)
+
 
 
 
