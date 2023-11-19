@@ -1,8 +1,9 @@
-from sys import exit
+
 pin=0
 balance=100
 while(pin == pin):
-    pin=int(input("enter your pin:"))
+    
+    
     if (pin == 1234 ):
         choose=int(input("""choose what you want:
                 1-check balance
