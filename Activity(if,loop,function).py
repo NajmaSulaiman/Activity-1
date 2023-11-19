@@ -1,27 +1,19 @@
 
 def shape1(x,a):
-   
-    
     traiangle=(b*h)/2
     return traiangle
 
-
 def shape2(z,r):
-    
     sqrr=b*h
     return sqrr
 
-
 def shape3(y):
-    
     cirle=(22/7)*(n**2)
     return cirle
 
 def shape4(w,s):
-    
     cylinder=(2*(22/7)*(n**2))+(2*(22/7)*n*h)
     return cylinder
-
 
 choose=0
 while (choose==choose):
