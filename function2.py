@@ -42,32 +42,20 @@ def func2(x):
 main()
 
 #sum of in using def return
+n=int(input("enter a number: "))
 def Sum_Digit(x):
-    n=int(input("enter a number: "))
+    
     sum_=0
+    i=n
 
-    while(n !=0):
-        sum_+=n%10
-        n=n//10
+    while(i !=0):
+        sum_+=i%10
+        i=i//10
         
     return sum_
-result=Sum_Digit(234)
+result=Sum_Digit(n)
 print("sum of the number is : " +str(result))
 
-"""
-def Sum_Digit(x):
-    #n=int(input("enter a number: "))
-    sum_=0
-
-    while(x !=0):
-        sum_+=x%10
-        x=x//10
-        
-    return sum_
-result=Sum_Digit()
-print("sum of the number is : " +str(result))
-
-"""
     
     
 
