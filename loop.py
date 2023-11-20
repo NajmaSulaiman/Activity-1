@@ -29,6 +29,9 @@ print("sum of the number is : " +str(sum_))
 
 
 
+
+
+
 #sum of int
 # i=0
 n=int(input("enter a number: "))
@@ -101,7 +104,29 @@ for num in range(1,21):
         continue
 print("you win")
     
+start=1
+n=int(input("enter number: "))
+sumofNumber=1
+while(start <=n):
+    sumofNumber*=start
+    start+=1
+print("the factor of the number is  "+str(sumofNumber))
 
+
+factor=1
+n=int(input("enter number: "))
+for i in range(1,n+1):
+    if(i != n):
+        print(i,end="*")
+    else:
+        print(i)
+        
+    factor*=i
+    
+print()
+print(factor)
+    
+    
 
 
 
