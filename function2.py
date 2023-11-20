@@ -54,6 +54,24 @@ def Sum_Digit(x):
 result=Sum_Digit(234)
 print("sum of the number is : " +str(result))
 
+"""
+def Sum_Digit(x):
+    #n=int(input("enter a number: "))
+    sum_=0
+
+    while(x !=0):
+        sum_+=x%10
+        x=x//10
+        
+    return sum_
+result=Sum_Digit()
+print("sum of the number is : " +str(result))
+
+"""
+    
+    
+
+
 
     
     
