@@ -38,7 +38,7 @@ print(len(num))
 listA=[4,7,1,0,3]
 print("list before sorting: ",listA)
 listA.sort()
-print("list after sorting: ",listA)
+print("list after sorting:  ",listA)
 
 
 
