@@ -2,26 +2,20 @@ counter = []
 x = [1, 2, 3, 4, 5, 6]
 
 def main():
-    
-    countInputs(counter)
-    printCounters(counter, x)
+    count_inputs(counter)
+    print_counters(counter, x)
 
-def countInputs(counter):
-    while True:
-        n = input("enter a number (1-6) or Q=for stop: ")
-        if n != "Q":
+def count_inputs(counter):
+    user_input = input("Enter numbers (1-6) separated by spaces and press Enter to finish: ")
+    numbers = user_input.split()
+    for n in numbers:
+        if n:
             counter.append(int(n))
         else:
             break
-    
 
-def printCounters(counter, x):
+def print_counters(counter, x):
     for i in x:
-        #print("{}: {}".format(i, counter.count(i)))
-        print(i," : " ,counter.count(i))
-        
-        
-
+        print(i, " : ", counter.count(i))
 
 main()
-
