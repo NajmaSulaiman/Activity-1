@@ -1,0 +1,8 @@
+ls=set([4,6,2,9,1,6])
+print(ls)
+ls.add(10)
+print(ls)
+ls.update("hi")
+print(ls) 
+ls.update((20,55,39))
+print(ls)
